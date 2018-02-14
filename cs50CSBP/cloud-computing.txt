@@ -1,0 +1,27 @@
+### In your own words, just what is "the cloud"? *
+
+The cloud refers to servers that use software to act as human devops engineers. Data can be stored on multiple servers across the globe to enable fast deployment to clients and handles much of the in house maintenance formerly required of traditional servers. 
+
+### How does a load balancer allow a website to scale (i.e., handle more and more users)? *
+
+A load balancer manages the load of website traffic by directing users to different servers such that a server does not become overloaded with information requests and drops packets. This even distribution allows a company to scale it's traffic without manually directing clients to their IP Address. 
+
+### Why might it make more sense to scale a website using multiple low-end servers instead of just one high-end server? *
+
+It may make sense to scale a website with multiple low-end servers instead of one high-end server because put altogether, many servers, even lower-end servers, will be able to handle a larger amount of traffic than one high-end server. While the high-end machine may be able to deliver with less latency, the single server will cease to deliver packets once it reaches its limit of bandwidth. Lower-end servers may not have as much computation power, but will, when combined, provide greater bandwidth, enabling higher levels of traffic.
+
+### How is a virtual machine different from an actual (physical) machine? *
+
+Virtual machines mimic physical machines, but are emulation systems based on real-world computer architectures. VMs can execute real operating systems and can execute programs in platform-independent environments.
+
+### What does it mean to shard a database? *
+
+Sharding is the practice of partitioning a large database into many smaller databases. This can make a database more manageable and work to reduce response time when making database requests. Sharding can also be used to direct traffic from different types of clients.
+
+### Suppose that you work for an internet startup. Argue in a short paragraph why your startup SHOULD use cloud computing for its infrastructure *
+
+Our company should use a cloud computing infrastructure to take advantage of the automated devop configurations, reduce need of colo facilities, minimize costs related to traditional servers and spin up or down additional databases based on usage in real time. Cloud computing offers a smarter solution for database management and will allow our full stack developers to focus on writing code to further the company's mission, rather than spend valuable resource hours on devop maintenance.
+
+### Suppose that you work for an(other) internet startup. Argue in a short paragraph why your startup should NOT use cloud computing for its infrastructure. *
+
+We should avoid using the cloud because of variable costs related to server management, our intended clients are locally based, making a physical location less latent in some circumstances, and for greater control over our server configurations. WHM and CPanel make the server easy to manage, and will keep our database simpler. In addition, our developers are already familiar with relational databases and won't need to spend anytime learning a cloud based database such as MongoDB or Firebase. Ultimately, a physical server provides us fixed costs and enough resources for our clients and engineers at this point in time.
