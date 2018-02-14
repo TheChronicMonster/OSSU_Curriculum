@@ -1,0 +1,64 @@
+### Suppose that you turn on your computer and visit https://www.harvard.edu/ in a browser. Using each of the terms below in a context 
+that makes clear your understanding of each, explain in a paragraph the process by which Harvard's home page appears on your screen: 
+DHCP server, DNS server, IP address, packet, TCP port, web server.
+
+DHCP is the Dynamic Host Configuration Protocol that acts as a network management protocol on TCP/IP networks. DHCP enables a computer 
+to request IP addresses automatically from and ISP (Internet Service Provider). A DHCP server requests information necessary to connect
+with Harvard's homepage.
+
+A DNS (Domain Name Server) is a computer server that contains public IP addresses and their associated hostnames. DNS resolves common 
+domain names to IP addresses. In this way, when harvard.edu is requested by the browser, the DNS resolves the common name to the harder
+to remember numeric IP address.
+
+The aforementioned Internet Protocol address is a numeric label assigned to each device connected to a computer network. IP uses either 
+IPv4 or IPv6 protocols, using 32-bit or 128-bit numbers, respectively.
+A packet is various byte sized information that transfers over networks from clients to servers and servers to clients. When harvard.edu 
+is request, the server responsible for managing harvard's digital information pushes network packets to the requesting machine using the
+TCP/IP protocols.
+
+A web server is a system that processes requests over Hypertext Transfer Protocol (HTTP) to distribute information over the network of 
+connected servers known as the internet or World Wide Web.
+
+The web server delivers information from harvard.edu to the requesting computer (client) using HTTP. A client can also transfer 
+information to a server using web forms or by uploading files.
+
+### Recall that TCP (tries to) guarantee delivery by ensuring that any lost packets are resent. Why, though, might packets be
+lost between a sender and receiver?
+
+There are times when servers become over congested, resulting in packet loss. TCP (Transmission Control Protocol) detects packet
+loss and performs automatic resubmissions in an effort to deliver 100% of requested information.
+Packet loss may be used intentionally as a way to avoid excessive congestion on a server.
+
+### When a server receives a packet, how does it know whether that packet contains (part of) an email, a request for a website, an 
+instant message, or something else altogether?
+
+Every network packet contains several bits of data about its contents and other details inside of a header and payload. The header
+and payload includes information such as the packet's protocol version number, packet header length, handling instructions, packet 
+size (generally 1,500 bytes), unique identifier, where in the data stream the packet belongs, a checksum, source, destination and
+optional flags for security, timestamps, and to use strict or loose source routing, as well as the information within the packet.
+
+### In what sense are domain names similar to phone numbers like 1-800-COLLECT?
+
+A number like 1-800-COLLECT is similar to a domain name like harvard.edu in that they are pneumonic representations of a series 
+of digits. COLLECT, in this case, represents 2655328 on the telephone and harvard.edu represents the IP address 23.22.75.102.
+
+### If not already familiar, read up on "bandwidth" and "latency" (as via Google) and then, in your own words, distinguish the 
+two concepts as they relate to internet speed.
+
+Bandwidth is how many bits can be processed to relay information from a client to a server and back to the client. Latency is 
+the time required to deliver information over a network. The more bits in the bandwidth the lesser the latency. Latency can also
+be influenced by the way information is transferred (wires or waves) and delays by routers or servers.
+
+### How does every website that you visit know (and likely log!) your IP address?
+
+Every incoming TCP/IP packet contains the origination IP address which is delivered to the web server. A website can deploy
+cookies and other tracking scripts to remember an IP address. This can aid in tracking use on a website, or be used to deliver 
+targeted advertisements. 
+
+### If not already familiar, read up on "DNS hijacking," as via https://www.wired.com/story/what-is-dns-hijacking/, and in your own
+words, explain what it means for an adversary to hijack a website via DNS.
+
+A DNS translates the domain into an IP address and delivers that address to a browser. The DNS is generally controlled by an ISP.
+An attacker can corrupt the DNS lookup to change the IP address that a client is sent to. A successful DNS hijacking can occur 
+outside of the site's server, attacking weaknesses in the Domain Name System and can result in a user being unknowingly misdirected
+to a malicious site.
