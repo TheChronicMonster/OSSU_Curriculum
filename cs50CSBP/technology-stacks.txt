@@ -1,0 +1,23 @@
+### In addition to choosing a language in which to implement some project, it's not uncommon to choose a "framework" for that language as well. What is a framework and what types of problems does one tend to solve?
+
+A framework provides order for a program. It offers a model for the developer to follow in order to scale an application without creating bloat or redundancy. Frameworks can help reduce difficult to trace bugs and offer a format for future developers to work within, as well.
+
+### Recall that Bootstrap is a "front-end" framework, specifically for CSS and JavaScript. Take a look at https://getbootstrap.com/ to get a sense of Bootstrap's features. Describe at least three problems that Bootstrap solves (or, equivalently, three features that Bootstrap offers).
+
+Bootstrap is a stylistic framework that helps developers work with a flexible grid for easy mobile responsiveness, helps developers start quickly with responsive templates and offers global classes that make scalability easy and beautiful. Bootstrap also has a strong community that makes debugging and learning new and advanced features easier.
+
+### With so many languages from which to choose for a website's back end (among them C#, Java, JavaScript, PHP, Python, Ruby, et al.), what factor(s) might drive you to choose one over another?
+
+Factors in choosing a language may depend on what the developer is already familiar with, what legacy code is already in place, community support, framework and goal of the project and what type of project it is, as some languages are better at different aspects of coding than others.
+
+### Suppose that you have an option to host your company's website in the cloud on a server running Linux or on a server running Windows, both of which are operating systems. Why might you want to choose one over the other?
+
+If the company's website needs to be accessed from around the world then a server on the cloud may be the best option, if developers need low-level control of a server then they may want a Linux box, if the site is a static landing page locally accessed or using .NET architecture then a server running Windows may be the best choice. 
+
+### Suppose that you'd like to store your customers in a relational database. Beyond a customer's name, what other fields (i.e., columns) might you want to store for each customer? Which of those fields perhaps belongs in a separate, second table and why?
+
+We may also want to store pertinent profile data about a customer, past orders and dates to contact for customer appreciation or billing. An ID and name and address and phone and email may also be stored in a second table to avoid redundancies in tracking repeat customers.
+
+### In the context of mobile, what characteristic(s) distinguish native apps and web apps from each other?
+
+Native apps are built using Java or Swift (or Objective C) whereas web apps can be built using JavaScript and tools such as Cordova, Ionic or React Native. Natively built apps tend to have better response times and be true to native design patterns. However, recently React Native has made leaps in creating a platform for developers to create mobile apps in JavaScript without sacrificing design.
