@@ -1,0 +1,69 @@
+### What are you hoping to get out of this course?
+
+Deeper understanding of Computer Science and algorithmic principles
+
+### What's the smallest decimal number that you can represent with 3 bits?
+
+0
+
+### What's the largest decimal number that you can represent with 3 bits?
+
+7
+
+### In lecture, we only discussed how to represent positive numbers (and zero) in binary, otherwise known as non-negative numbers.
+Propose how you could represent positive numbers, negative numbers, and zero alike in binary. Keep in mind that the only available 
+symbols are 0 and 1, no minus symbol from our human world! You're welcome to Google if need be, but first give some thought to the 
+problem with the proverbial engineering hat on!
+
+The leftmost binary digit can represent positive (0) or negative (1). We can use a system where the left most number is not counted, 
+only indicates positive or negative, or use "two's complement" where the left most number is counted, but if a one is represented as 
+a negative digit.
+
+### 01000001 01101110 01110011 01110111 01100101 01110010 00100000 01101001 01110011 00100000 00110100 00110010 00101110
+
+1056
+
+### Write an algorithm (i.e., step-by-step instructions) for something you do every day. Assume that the algorithm will be executed a robot who, unlike a human, cannot "read between the lines," so take care to be precise! An algorithm with 15 – 50 steps is plenty.
+
+Make tea Algorithm
+
+1. Go to kitchen
+2. Open cupboard
+3. Get coffee cup
+4. Close cupboard
+5. Take coffee cup to sink
+6. Turn on cold tap water
+7. Fill cup to 95% capacity with cold tap water
+8. Turn off cold tap water
+9. Open microwave door
+10. Place coffee cup in microwave interior
+11. Close microwave door
+12. Set microwave cook time to 90
+13. Start microwave
+14. Open cabinet door
+15. Get tea box
+16. Open tea box
+17. Get tea bag from tea box interior
+18. Place tea bag on counter
+19. Return tea box to cabinet
+20. Close cabinet door
+21. Wait for microwave to finish
+22. When microwave beeps, open microwave door
+23. Get coffee cup
+24. Set coffee cup on counter
+25. Close microwave door
+26. Place tea bag in coffee cup
+27. Wait 3 minutes
+28. Enjoy tea
+
+### Suppose that an engineer excitedly runs up to you and claims that they've implemented an algorithm that can sort n elements (e.g., numbers) in fewer than n steps. Give some thought as to why that's simply not possible and politely explain.
+
+Steps are required to provide inputs and output, every loop counts as a set of steps so sorting n elements will take at least a few more steps than n. Even the sorting itself requires the algorithm to verify that it has sorted properly on the last loop.
+
+### Suppose that some company has just sent your company a huge list of customers. You respond to that company with a strongly worded note because you only wanted the phone number of one customer, Mike Smith. They, in turn, reply to you suggesting that you simply find him quickly using binary search. Explain why it might not, in fact, be possible to use binary search on the huge list.
+
+More time or memory may be required to search through the long list than is available. 
+
+### Why might a programmer use a "linked list" instead of an "array" to store data in a computer program?
+
+A linked list doesn't require definition of an initial size and items can be added or removed from the middle of the list. Additionally, backtracking is possible in two way linked lists.
