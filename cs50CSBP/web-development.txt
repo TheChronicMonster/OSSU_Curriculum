@@ -1,0 +1,48 @@
+###Recall that we discussed HTTP in the context of internet technologies and HTML in the context of web development. What's the difference between HTTP and HTML?
+ 
+HTTP is a protocol is a responsible for transmitting digital documents such as HTML from servers to browsers. HTML is a markup language that developers use to create web sites and applications for browsers to display.
+
+### Recall that we discussed both HTML and CSS in the context of web development. What's the difference between HTML and CSS?
+
+HTML is the frame of a website, it provides structure whereas CSS applies styling to a site. CSS applies form to HTML's function. That said, CSS3 is very powerful and can be used for transformations and other animations.
+
+### Dive into HTML
+
+For this challenge, you might find it helpful to skim or search http://htmldog.com/guides/html/ and http://htmldog.com/guides/css/, which build upon concepts from lecture.
+
+It's time to make your (first?) website and get acquainted with a web-based IDE (integrated development environment) called CS50 IDE, which is based on open-source software called Cloud9. 
+
+1) Visit https://cs50.io/ and log in.
+2) If prompted to create a workspace, select Private and Harvard’s CS50, then click Create workspace.
+After a few seconds, you should find yourself in an environment similar to what we used in lecture.
+3) In the environment’s “terminal window,” type "update50" (without quotes) and then Enter.
+4) Wait a few minutes until your workspace has finished updating itself.
+5) Close that terminal window by clicking the X in its tab.
+
+Now let's have you make yourself a web page!
+
+1) Select File > New File within CS50 IDE's interface.
+2) Create a super-simple webpage, perhaps identical hello.html from class. For additional inspiration, take a look at the examples from class. If you click a file’s name, you won't see the file’s HTML but a rendered web page instead. To see the web page’s actual HTML, control-click or right-click on the web page’s background and select View Source (if using Chrome) or equivalent.
+3) When ready to admire your work, select File > Save and name the file hello.html.
+4) In CS50 IDE's lefthand file browser, control- or right-click hello.html, then select Preview.
+
+You should see your page, yes? Drop any of the staff a note if not!
+
+Now let’s have you make an actual website with multiple pages. We’ll leave its design largely up to you, subject only to the following requirements.
+
+i) Your website's main page should live in a file called index.html, since most web servers serve up index.html by default, in the absence of an explicit file name in a URL.
+ii) Your website must include a least one other page (with any filename, so long as it ends in .html), and your website's main page (i.e., index.html) must somehow link to that page.
+iii) Your website must include at least one image.
+iv) Your website must be stylized with at least some CSS, which must live in an "external stylesheet" called styles.css, just as we saw (briefly) in css4.html.
+v) Your website should be more complex than those from class (but much less complex than Harvard's home page!). As such, your website should probably use a few dozen HTML tags overall, plus one or more CSS properties.
+
+Alright, make us proud!
+
+If you've any questions along the way, do take advantage of office hours and do reach out to staff!
+
+### What's the URL of your workspace (not website) on Cloud9?
+Should resemble https://ide.cs50.io/USERNAME/ide50.
+
+https://github.com/TheChronicMonster/excuseGenerator
+
+(I couldn't log in and have plenty of experience with HTML. Github repo for proof.)
