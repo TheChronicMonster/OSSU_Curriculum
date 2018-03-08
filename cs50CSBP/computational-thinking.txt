@@ -21,7 +21,7 @@ a negative digit.
 
 ### 01000001 01101110 01110011 01110111 01100101 01110010 00100000 01101001 01110011 00100000 00110100 00110010 00101110
 
-1056
+65 110 115 119 101 114 32 105 115 32 52 50 46
 
 ### Write an algorithm (i.e., step-by-step instructions) for something you do every day. Assume that the algorithm will be executed a robot who, unlike a human, cannot "read between the lines," so take care to be precise! An algorithm with 15 – 50 steps is plenty.
 
@@ -62,7 +62,7 @@ Steps are required to provide inputs and output, every loop counts as a set of s
 
 ### Suppose that some company has just sent your company a huge list of customers. You respond to that company with a strongly worded note because you only wanted the phone number of one customer, Mike Smith. They, in turn, reply to you suggesting that you simply find him quickly using binary search. Explain why it might not, in fact, be possible to use binary search on the huge list.
 
-More time or memory may be required to search through the long list than is available. 
+A binary search will fail if the number of entries is equal to or greater than 2^30 because the sum of the low and high numbers performed in the algorithm becomes a negative number. (The 0 is turned to a 1 in the 2^7 place making the number negative). The sum remains negative after being split in half, resulting in an out of bounds array index.  
 
 ### Why might a programmer use a "linked list" instead of an "array" to store data in a computer program?
 
